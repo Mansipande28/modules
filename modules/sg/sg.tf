@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg" {
-  name   = "instance-sg"
+  name   = "instance-sgroup"
 
   
   dynamic "ingress" {
